@@ -1,0 +1,17 @@
+{
+  "name": "relative",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "pnpm -F server start:dev",
+    "admin": "pnpm -F @web/admin dev",
+    "miniProgram": "pnpm -F @web/miniProgram dev:h5"
+  },
+  "workspaces": [
+    "web/*",
+    "server"
+  ],
+  "keywords": [],
+  "author": "saulyue",
+  "license": "ISC"
+}
