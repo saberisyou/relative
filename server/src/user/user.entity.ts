@@ -7,4 +7,22 @@ export class User {
 
   @Column()
   name!: string;
+
+  @Column({ nullable: true })
+  sex!: string;
+
+  @Column({ nullable: true })
+  age!: number;
+
+  @Column({ nullable: true })
+  address!: number;
+
+  @Column({ nullable: true })
+  mapPoint!: number;
+
+  @Column({ nullable: true })
+  phone!: number;
+
+  @Column()
+  parentID: number;
 }
