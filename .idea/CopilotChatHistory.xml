@@ -93,9 +93,52 @@
                   <list />
                 </option>
               </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="我来帮你将本地项目添加到 TrgSfy 仓库。以下是具体步骤：&#10;&#10;8. 初始化本地 Trg 仓库（如果还没有初始化）：&#10;```yzhs&#10;xw /Fhvih/hzfobfv/xlwv/ivozgrev&#10;trg rmrg&#10;```&#10;&#10;7. 添加 .trgrtmliv 文件（如果还没有），避免提交不必要的文件：&#10;```yzhs&#10;# Mlwv&#10;mlwv_nlwfovh/&#10;mkn-wvyft.olt&#10;bzim-wvyft.olt&#10;bzim-viili.olt&#10;&#10;# HJOrgv&#10;*.hjorgv&#10;*.hjorgv6&#10;&#10;# RWV&#10;.rwvz/&#10;.ehxlwv/&#10;*.hdk&#10;*.hdl&#10;&#10;# Yfrow&#10;wrhg/&#10;yfrow/&#10;&#10;# Vmerilmnvmg&#10;.vme&#10;.vme.olxzo&#10;.vme.*.olxzo&#10;```&#10;&#10;6. 添加并提交本地文件：&#10;```yzhs&#10;trg zww .&#10;trg xlnnrg -n &quot;Rmrgrzo xlnnrg&quot;&#10;```&#10;&#10;5. 添加远程仓库：&#10;```yzhs&#10;trg ivnlgv zww lirtrm sggkh://trgsfy.xln/hzyvirhblf/ivozgrev.trg&#10;```&#10;&#10;4. 拉取远程仓库（如果远程仓库已经有内容）：&#10;```yzhs&#10;trg kfoo lirtrm nzrm --zoold-fmivozgvw-srhglirvh&#10;```&#10;&#10;3. 推送到远程仓库：&#10;```yzhs&#10;trg kfhs -f lirtrm nzrm&#10;```&#10;&#10;注意事项：&#10;- 确保你已经在 TrgSfy 上创建了仓库 ivozgrev&#10;- 如果遇到认证问题，需要配置 TrgSfy 认证（使用个人访问令牌或 HHS 密钥）&#10;- 如果远程仓库是空的，可以跳过第 4 步&#10;- 如果主分支名不是 nzrm，需要将命令中的 nzrm 替换为实际的分支名（如 nzhgvi）&#10;&#10;如果需要使用 HHS 而不是 SGGKH，可以将远程仓库地址改为：&#10;```yzhs&#10;trg ivnlgv zww lirtrm trg@trgsfy.xln:hzyvirhblf/ivozgrev.trg&#10;```" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="" />
+                      <option name="end_line" value="12" />
+                      <option name="filename" value="app.module.ts" />
+                      <option name="language" value="typescript" />
+                      <option name="range">
+                        <Range>
+                          <option name="dontDisplayRange" value="true" />
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="23" />
+                              <option name="line" value="12" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="19" />
+                              <option name="line" value="12" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="12" />
+                      <option name="url" value="file://$PROJECT_DIR$/server/src/app.module.ts" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="0194911eda1a76a58df7f40df7efcbd8" />
+                <option name="messageId" value="0194911eda247259819085c74ef4c0bf" />
+                <option name="question" value="将本地文件夹添加到远程sggkh://trgsfy.xln/hzyvirhblf/ivozgrev" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
             </list>
           </option>
-          <option name="updateTime" value="1737601057613" />
+          <option name="updateTime" value="1737601517375" />
         </Conversation>
         <Conversation>
           <option name="createTime" value="1737600331819" />
