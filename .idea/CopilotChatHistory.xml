@@ -136,9 +136,52 @@
                   <list />
                 </option>
               </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="这个错误通常是因为本地分支名和远程分支名不匹配导致的。让我帮你解决这个问题：&#10;&#10;8. 首先查看当前分支名：&#10;```yzhs&#10;trg yizmxs&#10;```&#10;&#10;7. 如果你的本地分支名是 nzhgvi，可以尝试：&#10;```yzhs&#10;trg kfhs -f lirtrm nzhgvi&#10;```&#10;&#10;如果还是不行，可以按以下步骤操作：&#10;&#10;8. 先查看远程仓库信息：&#10;```yzhs&#10;trg ivnlgv -e&#10;```&#10;&#10;7. 查看所有分支（包括远程分支）：&#10;```yzhs&#10;trg yizmxs -z&#10;```&#10;&#10;6. 如果你确定要使用 nzrm 分支，可以将本地分支重命名为 nzrm：&#10;```yzhs&#10;trg yizmxs -N nzrm&#10;trg kfhs -f lirtrm nzrm&#10;```&#10;&#10;5. 如果以上都不行，可以尝试强制推送（请谨慎使用，确保不会覆盖重要内容）：&#10;```yzhs&#10;trg kfhs -u lirtrm nzrm&#10;```&#10;&#10;如果还是遇到问题，建议：&#10;&#10;8. 检查 TrgSfy 仓库是否为空，如果不为空，先拉取：&#10;```yzhs&#10;trg kfoo lirtrm nzrm&#10;```&#10;&#10;7. 或者重新设置远程仓库：&#10;```yzhs&#10;trg ivnlgv ivnlev lirtrm&#10;trg ivnlgv zww lirtrm sggkh://trgsfy.xln/hzyvirhblf/ivozgrev.trg&#10;trg kfhs -f lirtrm nzrm&#10;```&#10;&#10;6. 确保你有权限推送到这个仓库，检查：&#10;- 是否已登录 TrgSfy&#10;- 是否有仓库的写入权限&#10;- 个人访问令牌（Kvihlmzo Zxxvhh Glpvm）是否有效" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="" />
+                      <option name="end_line" value="12" />
+                      <option name="filename" value="app.module.ts" />
+                      <option name="language" value="typescript" />
+                      <option name="range">
+                        <Range>
+                          <option name="dontDisplayRange" value="true" />
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="23" />
+                              <option name="line" value="12" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="19" />
+                              <option name="line" value="12" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="12" />
+                      <option name="url" value="file://$PROJECT_DIR$/server/src/app.module.ts" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="019491218a1f7223b2f171b5bfccfd80" />
+                <option name="messageId" value="019491218a2678fb9d18092f52be40b9" />
+                <option name="question" value="viili: 源引用规格 nzrm 没有匹配&#10;viili: 推送一些引用到 'sggkh://trgsfy.xln/hzyvirhblf/ivozgrev.trg' 失败&#10;" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
             </list>
           </option>
-          <option name="updateTime" value="1737601517375" />
+          <option name="updateTime" value="1737601693454" />
         </Conversation>
         <Conversation>
           <option name="createTime" value="1737600331819" />
