@@ -11,6 +11,7 @@ specifiers:
   '@tarojs/components': 4.0.9
   '@tarojs/helper': 4.0.9
   '@tarojs/plugin-framework-react': 4.0.9
+  '@tarojs/plugin-http': ^4.0.9
   '@tarojs/plugin-platform-alipay': 4.0.9
   '@tarojs/plugin-platform-h5': 4.0.9
   '@tarojs/plugin-platform-harmony-hybrid': 4.0.9
@@ -26,6 +27,7 @@ specifiers:
   '@tarojs/vite-runner': 4.0.9
   '@types/react': ^18.0.0
   '@vitejs/plugin-react': ^4.3.0
+  axios: ^1.7.9
   babel-plugin-import: ^1.13.8
   babel-preset-taro: 4.0.9
   eslint: ^8.57.0
@@ -50,6 +52,7 @@ dependencies:
   '@tarojs/components': 4.0.9_gl5avoocu7ohirzot6pre3j544
   '@tarojs/helper': 4.0.9
   '@tarojs/plugin-framework-react': 4.0.9_xzy74d6tu5mp72k3esc3ci6dyi
+  '@tarojs/plugin-http': 4.0.9_y243a2uhfcowa6w6vayxglhfuq
   '@tarojs/plugin-platform-alipay': 4.0.9_@tarojs+shared@4.0.9
   '@tarojs/plugin-platform-h5': 4.0.9_wpcdc4a3nmjfuo5wxnisu7pvhm
   '@tarojs/plugin-platform-harmony-hybrid': 4.0.9_2xqfwolhnvl6z3t5ttpcm567nq
@@ -62,6 +65,7 @@ dependencies:
   '@tarojs/runtime': 4.0.9
   '@tarojs/shared': 4.0.9
   '@tarojs/taro': 4.0.9_wvhe54bjlcwaye3d3thpoz5xde
+  axios: 1.7.9
   postcss-pxtorem: 6.1.0_postcss@8.5.1
   react: 18.3.1
   react-dom: 18.3.1_react@18.3.1
@@ -2818,6 +2822,19 @@ packages:
       react: 18.3.1
       tslib: 2.8.1
       vite: 4.5.9_sass@1.83.4+terser@5.37.0
+    dev: false
+
+  /@tarojs/plugin-http/4.0.9_y243a2uhfcowa6w6vayxglhfuq:
+    resolution: {integrity: sha512-HiIAOeW0EYrd98dTS13dzZNvlfODHXU7qfJU+eKUy+r542mfiflR2K5RYB/p3NhLnvTySA4MIP8SAKPPnjzr8w==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      '@tarojs/runtime': 4.0.9
+      '@tarojs/shared': 4.0.9
+      '@tarojs/taro': 4.0.9
+    dependencies:
+      '@tarojs/runtime': 4.0.9
+      '@tarojs/shared': 4.0.9
+      '@tarojs/taro': 4.0.9_wvhe54bjlcwaye3d3thpoz5xde
     dev: false
 
   /@tarojs/plugin-platform-alipay/4.0.9_@tarojs+shared@4.0.9:

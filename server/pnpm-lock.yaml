@@ -17,6 +17,7 @@ specifiers:
   '@types/jest': ^29.5.14
   '@types/node': ^22.10.7
   '@types/supertest': ^6.0.2
+  cors: ^2.8.5
   eslint: ^9.18.0
   eslint-config-prettier: ^10.0.1
   eslint-plugin-prettier: ^5.2.2
@@ -42,6 +43,7 @@ dependencies:
   '@nestjs/mapped-types': 2.1.0_brfjnf6ueshcu3xmiuhywkylu4
   '@nestjs/platform-express': 11.0.4_2nikpbpwfvjov2j4m7igdljzcm
   '@nestjs/typeorm': 11.0.0_cny45jmoqhan67oywpq3c3lide
+  cors: 2.8.5
   reflect-metadata: 0.2.2
   rxjs: 7.8.1
   sqlite3: 5.1.7
